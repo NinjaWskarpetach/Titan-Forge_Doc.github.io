@@ -26,6 +26,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'NinjaWskarpetach', // Usually your GitHub org/user name.
   projectName: 'Titan-Forge_Doc.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
