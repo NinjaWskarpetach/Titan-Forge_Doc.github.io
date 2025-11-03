@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NinjaWskarpetach', // Usually your GitHub org/user name.
+  projectName: 'Titan-Forge_Doc.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -147,4 +147,12 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-export default config;
+export default {
+  // ...
+  url: 'https://NinjaWskarpetach.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'Titan-Forge_Doc.github.io',
+  organizationName: 'NinjaWskarpetach',
+  trailingSlash: false,
+  // ...
+};
