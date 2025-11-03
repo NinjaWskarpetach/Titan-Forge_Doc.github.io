@@ -15,7 +15,9 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://ninjawskarpetach.github.io/Titan-Forge_Doc.github.io/',
+  // The `url` must be the site root (no sub-path). Put any repository/project
+  // sub-path in `baseUrl` instead.
+  url: 'https://ninjawskarpetach.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Titan-Forge_Doc.github.io/',
@@ -147,12 +149,6 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-export default {
-  // ...
-  url: 'https://NinjaWskarpetach.github.io', // Your website URL
-  baseUrl: '/',
-  projectName: 'Titan-Forge_Doc.github.io',
-  organizationName: 'NinjaWskarpetach',
-  trailingSlash: false,
-  // ...
-};
+// Export the fully defined config above as the default export so required
+// fields such as `title` are present during validation.
+export default config;
