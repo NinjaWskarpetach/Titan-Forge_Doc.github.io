@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktitan_forge_doc=globalThis.webpackChunktitan_forge_doc||[]).push([[8662],{3813:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/Titan-Forge_Doc.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

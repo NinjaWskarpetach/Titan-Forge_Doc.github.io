@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktitan_forge_doc=globalThis.webpackChunktitan_forge_doc||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/Titan-Forge_Doc.github.io/blog","blogTitle":"Blog","authorsListPath":"/Titan-Forge_Doc.github.io/blog/authors"}')}}]);
