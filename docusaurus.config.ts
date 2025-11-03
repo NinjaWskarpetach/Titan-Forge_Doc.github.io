@@ -15,15 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  // The `url` must be the site root (no sub-path). Put any repository/project
+  // sub-path in `baseUrl` instead.
+  url: 'https://ninjawskarpetach.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Titan-Forge_Doc.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NinjaWskarpetach', // Usually your GitHub org/user name.
+  projectName: 'Titan-Forge_Doc.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
@@ -147,4 +150,6 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
+// Export the fully defined config above as the default export so required
+// fields such as `title` are present during validation.
 export default config;
