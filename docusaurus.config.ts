@@ -81,7 +81,7 @@ const config: Config = {
       title: 'Titan-Forge_Doc',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/TF_Logo.png',
+        src: 'img/TF_LOGO.svg',
       },
       items: [
         {
