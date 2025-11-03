@@ -78,7 +78,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Titan-Forge_D',
+      title: 'Titan-Forge_Doc',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -114,7 +114,7 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack',
+              label: 'Stack Overflow ',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
